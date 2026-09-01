@@ -55,6 +55,9 @@ const nextConfig: NextConfig = {
     ignoreBuildErrors: false,
   },
   typedRoutes: true,
+  experimental: {
+    optimizePackageImports: ["react-icons", "next-intl"],
+  },
   logging: {
     fetches: {
       fullUrl: process.env.NODE_ENV === "development",
