@@ -74,7 +74,7 @@ corepack prepare pnpm@11.22.0 --activate
 Use GitHub's **Use this template** button, or clone the repository and replace its remote:
 
 ```bash
-git clone <REPOSITORY_URL> my-project
+git clone https://github.com/G0rz/master-template my-project
 cd my-project
 git remote set-url origin <NEW_REPOSITORY_URL>
 pnpm install
@@ -124,6 +124,7 @@ Open <http://localhost:3000>. The default localized routes are `/en` and `/es`; 
 | `pnpm run dev`          | Start the development server                    |
 | `pnpm run build`        | Create a production build                       |
 | `pnpm run start`        | Run an existing production build                |
+| `pnpm run typegen`      | Generate Next.js route and root-parameter types |
 | `pnpm run lint`         | Analyze the project with ESLint                 |
 | `pnpm run lint:fix`     | Automatically fix supported lint problems       |
 | `pnpm run format`       | Format files with Prettier                      |
