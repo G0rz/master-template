@@ -17,7 +17,11 @@ Internationalization · Dark mode · Testing · Code quality · CI · Docker
 </div>
 
 ---
+<div align="center">
+  <img width="902" height="848" alt="image" src="https://github.com/user-attachments/assets/9456dc8b-56d0-4f5a-901e-ca1fd9119700" />
+</div>
 
+---
 ## What is included?
 
 Master Template is a reusable starting point for web applications built with Next.js, React, and TypeScript. It provides a practical project structure, reusable UI components, multilingual routing, automated quality checks, and a production-oriented Docker setup.
