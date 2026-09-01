@@ -7,7 +7,7 @@ export const siteConfig = {
   author: env.SITE_AUTHOR,
   url: env.SITE_URL,
   links: {
-    github: "https://github.com/G0rz",
+    github: "https://github.com/G0rz/master-template",
     website: "https://www.leonardobecerril.dev/",
   },
 } as const;
