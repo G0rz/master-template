@@ -270,3 +270,6 @@ Your pull request should explain what changed, why it is needed, and how it was 
 
 > [!NOTE]
 > Discuss architecture changes, new dependencies, and public behavior changes in an Issue first. Agreeing on scope before implementation saves time for contributors and maintainers.
+> #   m a s t e r - t e m p l a t e 
+>  
+>  
