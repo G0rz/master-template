@@ -1,19 +1,29 @@
-import type { MetadataRoute } from 'next'
+import type { MetadataRoute } from "next";
+import { routing } from "@/i18n/routing";
+import { siteConfig } from "@/lib/site-config";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    {
-      url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://localhost:3000/',
-      lastModified: new Date(),
-      changeFrequency: 'yearly',
-      priority: 1,
-    },
-    {
-      url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://localhost:3000/',
-      lastModified: '2026-09-07',
-      changeFrequency: 'weekly',
-      priority: 0.5,
-      images: [process.env.NEXT_PUBLIC_SITE_URL + '/favicon.ico'],
-    },
-  ]
+  const baseUrl = siteConfig.url;
+  const routes = [""];
+
+  const entries: MetadataRoute.Sitemap = [];
+
+  for (const route of routes) {
+    for (const locale of routing.locales) {
+      entries.push({
+        url: `${baseUrl}/${locale}${route}`,
+        lastModified: new Date(),
+        changeFrequency: "weekly",
+        priority: route === "" ? 1.0 : 0.8,
+        alternates: {
+          languages: {
+            ...Object.fromEntries(routing.locales.map((loc) => [loc, `${baseUrl}/${loc}${route}`])),
+            "x-default": `${baseUrl}/${routing.defaultLocale}${route}`,
+          },
+        },
+      });
+    }
+  }
+
+  return entries;
 }

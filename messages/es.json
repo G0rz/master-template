@@ -1,0 +1,13 @@
+{
+  "HomePage": {
+    "statusLabel": "actualizado recientemente",
+    "badge": "Master Template",
+    "title": "Todo lo que necesitas en este código",
+    "about": "Plantilla profesional preconfigurada con React 19, TypeScript, Tailwind CSS v4, i18n, Docker y CI/CD.",
+    "primaryCta": "Ver Documentación",
+    "featuresTitle": "Capacidades de Producción"
+  },
+  "Navigation": {
+    "home": "Inicio"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "HomePage": {
+    "statusLabel": "up to date",
+    "badge": "Master Template",
+    "title": "All you need in this code",
+    "about": "An enterprise-ready, production-grade starter template pre-configured with React 19, TypeScript, Tailwind CSS v4, i18n, Docker and CI/CD.",
+    "primaryCta": "View Documentation",
+    "featuresTitle": "Production Features"
+  },
+  "Navigation": {
+    "home": "Home"
+  }
+}

@@ -1,0 +1,9 @@
+node_modules
+.next
+build
+package-lock.json
+.env
+.env.local
+public/**/*.svg
+public/**/*.png
+public/**/*.jpg
