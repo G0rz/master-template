@@ -257,17 +257,7 @@ If Issues are not enabled, contact the repository maintainers through the channe
 
 ## Contributing
 
-Contributions, corrections, and well-scoped ideas are welcome.
-
-1. Fork the repository.
-2. Create a branch from `main`: `git switch -c feat/my-improvement` or `git switch -c fix/my-fix`.
-3. Install dependencies with `pnpm install`.
-4. Make focused, documented changes and add tests when appropriate.
-5. Run `pnpm run check` and `pnpm run build`.
-6. Commit your changes.
-7. Push the branch and open a pull request against `main`.
-
-Your pull request should explain what changed, why it is needed, and how it was verified. Include before-and-after screenshots for visual changes. Do not include secrets, `.env.local`, generated dependencies, or unrelated changes.
+Contributions, bug reports, and suggestions are welcome! Please read our [Contributing Guidelines](.github/CONTRIBUTING.md) for details on code quality standards, conventional commits, and the pull request process.
 
 > [!NOTE]
-> Discuss architecture changes, new dependencies, and public behavior changes in an Issue first. Agreeing on scope before implementation saves time for contributors and maintainers.
+> For major architecture changes or new dependencies, please open an Issue first to discuss scope and approach before starting implementation.
