@@ -105,14 +105,14 @@ Open <http://localhost:3000>. The default localized routes are `/en` and `/es`; 
 
 ## Environment variables
 
-| Variable                       | Description                                   | Default                 |
-| ------------------------------ | --------------------------------------------- | ----------------------- |
-| `NODE_ENV`                     | Runtime environment                           | `development`           |
-| `NEXT_PUBLIC_SITE_URL`         | Public canonical URL without a trailing slash | `http://localhost:3000` |
-| `NEXT_PUBLIC_SITE_NAME`        | Name used in metadata and the web manifest    | `Master Template`       |
-| `NEXT_PUBLIC_SITE_DESCRIPTION` | Description used for SEO                      | Template description    |
-| `NEXT_PUBLIC_SITE_AUTHOR`      | Author or organization                        | `Leonardo Becerril`     |
-| `NEXT_PUBLIC_SITE_LOCALE`      | Public site locale                            | Optional                |
+| Variable                       | Description                                   | Default                                   |
+| ------------------------------ | --------------------------------------------- | ----------------------------------------- |
+| `NODE_ENV`                     | Runtime environment                           | `development`                             |
+| `NEXT_PUBLIC_SITE_URL`         | Public canonical URL without a trailing slash | `https://master-template-beta.vercel.app` |
+| `NEXT_PUBLIC_SITE_NAME`        | Name used in metadata and the web manifest    | `Master Template`                         |
+| `NEXT_PUBLIC_SITE_DESCRIPTION` | Description used for SEO                      | Template description                      |
+| `NEXT_PUBLIC_SITE_AUTHOR`      | Author or organization                        | `Leonardo Becerril`                       |
+| `NEXT_PUBLIC_SITE_LOCALE`      | Public site locale                            | Optional                                  |
 
 > [!WARNING]
 > Never store secrets in variables beginning with `NEXT_PUBLIC_`. Next.js exposes them to the browser. Do not commit `.env.local` to the repository.

@@ -1,4 +1,4 @@
-const siteUrl = process.env["NEXT_PUBLIC_SITE_URL"] ?? "http://localhost:3000";
+const siteUrl = process.env["NEXT_PUBLIC_SITE_URL"] ?? "https://master-template-beta.vercel.app";
 const siteName = process.env["NEXT_PUBLIC_SITE_NAME"] ?? "Master Template";
 const siteDescription =
   process.env["NEXT_PUBLIC_SITE_DESCRIPTION"] ??
