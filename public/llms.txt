@@ -2,17 +2,16 @@
 
 > Production-ready Next.js 16 starter template with React 19, TypeScript, Tailwind CSS v4, next-intl, Docker, and CI/CD.
 
-## Architecture & Technology Stack
-- **Framework**: Next.js 16 (App Router, Server Actions, React Server Components)
-- **UI & Runtime**: React 19, Base UI, Tailwind CSS v4, next-themes
-- **Localization**: next-intl (English & Spanish with dynamic locale routing)
-- **Code Quality**: TypeScript strict mode, ESLint (Flat config + strictTypeChecked), Prettier, Husky, Commitlint
-- **DevOps**: Standalone multi-stage Docker build, GitHub Actions CI/CD pipeline
+## Available Routes
+- [English Landing Page](/en): English localized landing page
+- [Spanish Landing Page](/es): Spanish localized landing page
+- [Health Check](/api/health): JSON health check endpoint (`{ "status": "ok" }`)
+- [Sitemap](/sitemap.xml): Dynamic XML sitemap with multilingual hreflang and x-default support
+- [Robots Directives](/robots.txt): Search engine crawling directives
+- [Security Policy](/.well-known/security.txt): RFC 9116 security vulnerability disclosure policy
 
-## Available Routes & Endpoints
-- `/en`: English localized landing page
-- `/es`: Spanish localized landing page
-- `/api/health`: JSON health check endpoint (`{ "status": "ok" }`)
-- `/sitemap.xml`: Dynamic XML sitemap with multilingual hreflang and x-default support
-- `/robots.txt`: Search engine crawling directives
-- `/.well-known/security.txt`: RFC 9116 security vulnerability disclosure policy
+## Technology Stack
+- [Next.js Documentation](https://nextjs.org/docs): Next.js 16 App Router, Server Actions, React Server Components
+- [React Documentation](https://react.dev): React 19 core library
+- [Tailwind CSS Documentation](https://tailwindcss.com): Tailwind CSS v4 design system
+- [next-intl Documentation](https://next-intl.dev): Internationalization and localized routing
