@@ -39,7 +39,7 @@ export function TerminalPreview() {
           { delay: 2800, hash: "e5b4f91", msg: "ci: docker healthcheck & vitest" },
         ].map(({ delay, hash, msg }) => (
           <TerminalLine key={hash} delay={delay}>
-            <span className="font-mono text-amber-500">{hash}</span>
+            <span className="font-mono text-amber-700 dark:text-amber-400">{hash}</span>
             <span className="text-muted-foreground"> {msg}</span>
           </TerminalLine>
         ))}
