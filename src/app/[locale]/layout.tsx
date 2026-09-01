@@ -21,16 +21,20 @@ const montserratHeading = Montserrat({
   subsets: ["latin"],
   variable: "--font-heading",
   display: "swap",
+  preload: true,
 });
 const jetbrains = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
   display: "swap",
+  preload: true,
 });
 const ibmPlexSans = IBM_Plex_Sans({
   subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700"],
   variable: "--font-sans",
   display: "swap",
+  preload: true,
 });
 
 export async function generateMetadata({}: Props): Promise<Metadata> {
